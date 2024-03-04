@@ -1,0 +1,122 @@
+.header{
+    width: calc(100% - 700px);
+    margin: 35px 48px;   
+    position: sticky; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 0.5px solid var(--letra-black);
+    border-right: 0.5px solid var(--letra-black);
+}
+.header-title .link{
+    font-size: 30px;    
+    color: var(--letra-titulo);
+}
+.header-links{    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-links .nav {
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+}
+.header-links .nav a{
+    font-size: 17px;
+    color: var(--letra-white);
+}
+.header-links .nav a:hover{
+    color: var(--letra-titulo)
+}
+.header-icons{
+    display: flex;
+    gap: 10px;
+}
+.codepen-ico{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+.github-ico{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+.menu-icon{
+    display: none;
+}
+@media (max-width: 1600px) {
+    .header{
+        width: calc(100% - 450px);
+    }
+}
+@media (max-width: 1200px) {
+    .header{
+        width: calc(100% - 350px);
+    }
+}
+@media (max-width: 1000px) {
+    .header{
+        width: calc(100% - 150px);
+    }
+}
+@media (max-width: 767px) {
+    .header{
+        width: calc(100% - 1.5px);
+    }
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .line {
+        width: 22px;
+        height: 2px;
+        background-color: var(--background-white);
+        margin: 2px 0;
+        transition: transform 0.3s ease-in-out;
+    }   
+    .line-open:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 4px);
+    }
+    .line-open:nth-child(2) {
+        opacity: 0;
+    }
+    .line-open:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -4px);
+    }
+    .header-icons,
+    .header-links {
+        display: none;
+    }
+    .show-header{       
+        position: absolute;  
+        top: 0;
+    }
+    .show-links{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 100px;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav a{
+        margin: 20px 0;
+    }
+    .show-icons{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 400px;
+    }
+}
