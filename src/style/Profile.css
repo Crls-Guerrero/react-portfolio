@@ -1,16 +1,29 @@
 .about{
-    margin: 0;
     display: flex;
     align-items:center;
     justify-content: space-betweengt;
-    gap: 20px;
+    gap: 40px;
+}
+.about-me{
+    margin: 0;
+}
+.about-me h2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--letra-white);
+}
+.about-me span{
+    color: var(--letra-titulo);
+}
+.about-me p{
+    color: var(--letra-white);
+}
+.about-me button{
+    padding: 6px 10px;
+    border-radius: 30px;
 }
 .icon-dev{
     width: 450px;
     height: 450px;
-}
-.about-me{
-    width: 200px;
-    height: 300px;
-    background-color: black;
 }
