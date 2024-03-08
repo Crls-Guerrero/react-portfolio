@@ -1,15 +1,18 @@
 .about{
+    width: calc(100% - 700px);
+    margin-top: 10px;
     display: flex;
     align-items:center;
-    justify-content: space-betweengt;
-    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
 }
 .about-me{
     margin: 0;
 }
 .about-me h2{
     margin: 0;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     color: var(--letra-white);
 }
@@ -18,12 +21,21 @@
 }
 .about-me p{
     color: var(--letra-white);
+    font-size: 20px;
 }
 .about-me button{
-    padding: 6px 10px;
+    padding: 7px 10px;
     border-radius: 30px;
+    cursor: pointer;
+    background-color: var(--letra-titulo);
+    color: var(--letra-white);
+    border: 1px solid var(--letra-black);
+}
+.about-me button:hover{
+    background-color: var(--letra-white);
+    color: var(--letra-black);
 }
 .icon-dev{
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
 }

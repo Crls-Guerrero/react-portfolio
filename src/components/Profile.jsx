@@ -16,7 +16,6 @@ function Profile(){
                     <span>s</span>
                 </h2>
                 <p>Front-End Developer.</p>
-                <a href="../pdf/CV.pdf" target="_blank">aCV</a>
                 <button onClick={Curriculum}>Curriculum Vitae</button>
             </div>
             <IconDeveloperBackground className="icon-dev"/>
