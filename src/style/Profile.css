@@ -1,6 +1,6 @@
 .about{
     width: calc(100% - 700px);
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     align-items:center;
     text-align: center;
@@ -8,11 +8,11 @@
     gap: 50px;
 }
 .about-me{
-    margin: 0;
+    width: auto;
 }
 .about-me h2{
     margin: 0;
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 600;
     color: var(--letra-white);
 }
@@ -21,7 +21,7 @@
 }
 .about-me p{
     color: var(--letra-white);
-    font-size: 20px;
+    font-size: 1rem;
 }
 .about-me button{
     padding: 7px 10px;
@@ -37,5 +37,5 @@
 }
 .icon-dev{
     width: 550px;
-    height: 550px;
+    height: 300px;
 }
