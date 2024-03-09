@@ -19,7 +19,6 @@ function Profile(){
                 <button onClick={Curriculum}>Curriculum Vitae</button>
             </div>
             <IconDeveloperBackground className="icon-dev"/>
-            
         </div>
     );
 }

@@ -22,7 +22,7 @@
 .about-me p{
     color: var(--letra-white);
     font-size: 1rem;
-}
+}   
 .about-me button{
     padding: 7px 10px;
     border-radius: 30px;
