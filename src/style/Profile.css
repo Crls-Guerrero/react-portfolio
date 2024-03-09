@@ -1,6 +1,6 @@
 .about{
     width: calc(100% - 700px);
-    margin-top: 30px;
+    margin-top: 5rem;
     display: flex;
     align-items:center;
     text-align: center;

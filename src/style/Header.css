@@ -1,6 +1,6 @@
 .header{
     width: calc(100% - 700px);
-    margin: 35px 48px;   
+    margin: 50px 48px;   
     position: sticky; 
     display: flex;
     align-items: center;
@@ -9,7 +9,8 @@
     border-right: 0.5px solid var(--letra-black);
 }
 .header-title .link{
-    font-size: 30px;    
+    margin: 0;
+    font-size: 2.5rem;    
     color: var(--letra-titulo);
 }
 .header-links{    
@@ -20,10 +21,10 @@
 .header-links .nav {
     display: flex;
     justify-content: space-around;
-    gap:10px;
+    gap:1.2rem;
 }
 .header-links .nav a{
-    font-size: 17px;
+    font-size: 1.2rem;
     color: var(--letra-white);
 }
 .header-links .nav a:hover{
