@@ -1,15 +1,22 @@
 .header{
-    position:sticky;
+    width: 100%;
+    margin: 3.1rem 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    border-left: 0.5px solid var(--letra-black);
-    border-right: 0.5px solid var(--letra-black);
-    
+    justify-content: space-evenly;
 }
-.header-title .link{
-    margin: 0;
-    font-size: 2.5rem;    
+.header-title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header-title .logo-code{
+    width: 35px;
+    height: 30px;
+}
+.header-title p{
+    font-weight: 600;
+    font-size: 1.7rem;   
     color: var(--letra-titulo);
 }
 a.header-links{    
@@ -19,51 +26,42 @@ a.header-links{
 }
 .header-links .nav {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    gap:1.2rem;
+    gap:20px;
 }
 .header-links .nav a{
     font-size: 1.2rem;
     color: var(--letra-white);
 }
 .header-links .nav a:hover{
+    transform: scale(1.1);
     color: var(--letra-titulo)
 }
-.header-icons{
-    display: flex;
-    gap: 10px;
-}
-.codepen-ico{
-    width: 30px;
-    height: auto;
+.header-links .nav button{
+    padding: 7px 10px;
+    border-radius: 30px;
     cursor: pointer;
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: var(--letra-white);
+    border: 1px solid var(--letra-white);
 }
-.github-ico{
-    width: 30px;
-    height: auto;
-    cursor: pointer;
+.header-links .nav button:hover{
+    background-color: var(--letra-titulo);
+    color: var(--letra-white);
+    border-color: var(--letra-titulo);
 }
 .menu-icon{
     display: none;
-}/* 
-@media (max-width: 1600px) {
-    .header{
-        width: calc(100% - 450px);
-    }
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 900px) {
     .header{
-        width: calc(100% - 350px);
+        justify-content: space-around;
     }
-}
-@media (max-width: 1000px) {
-    .header{
-        width: calc(100% - 150px);
-    }
-}
-@media (max-width: 767px) {
-    .header{
-        width: calc(100% - 1.5px);
+    .header-title p:nth-child(3){
+        display: none;
     }
     .menu-icon {
         display: flex;
@@ -90,18 +88,17 @@ a.header-links{
     .header-links {
         display: none;
     }
-    .show-header{       
-        position: absolute;  
-        top: 0;
-    }
     .show-links{
         width: 100%;
+        height: calc(100vh - 100px);
+        margin-top: 1.2rem;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: 100px;
+        top:5.2rem;    
+        background-color: var(--background-black);    
     }
     .nav{
         flex-direction: column;
@@ -110,13 +107,4 @@ a.header-links{
     .nav a{
         margin: 20px 0;
     }
-    .show-icons{
-        width: 100%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 400px;
-    }
-} */
+}

@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=EB+Garamond&family=Montserrat:wght@100;400;600;800&display=swap');
+
+:root{
+    --background-black:#1B1E23;
+    --background-white:#CDE6F6;
+    --letra-titulo:#617BFF;
+    --letra-black:#3D4750;
+    --letra-white:#EEEFEF;
+}
+*{
+    font-family: 'Agbalumo', system-ui;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--background-black);
+}
+
 .App {
   width: 100%;
   display: flex;

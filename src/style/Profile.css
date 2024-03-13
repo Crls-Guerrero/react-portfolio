@@ -1,41 +1,57 @@
 .about{
-    width: calc(100% - 700px);
-    margin-top: 5rem;
+    width: 100%;
+    margin: 5rem 0;
     display: flex;
     align-items:center;
-    text-align: center;
     justify-content: center;
-    gap: 50px;
+    gap: 6rem;
 }
 .about-me{
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 }
 .about-me h2{
     margin: 0;
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--letra-white);
-}
-.about-me span{
-    color: var(--letra-titulo);
 }
 .about-me p{
+    margin-top: 10px;
     color: var(--letra-white);
     font-size: 1rem;
-}   
-.about-me button{
-    padding: 7px 10px;
-    border-radius: 30px;
+} 
+.about-me p span{
+    color: var(--letra-titulo);
+}
+.about-me .about-links{
+    margin-top: 18px;
+    display: flex;
+    gap: 15px;
+}  
+.about-me .about-links .icons-linkedin{
+    width: 35px;
+    height: 35px;
     cursor: pointer;
-    background-color: var(--letra-titulo);
-    color: var(--letra-white);
-    border: 1px solid var(--letra-black);
 }
-.about-me button:hover{
-    background-color: var(--letra-white);
-    color: var(--letra-black);
+.about-me .about-links .icons-github{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
 }
-.icon-dev{
-    width: 550px;
-    height: 300px;
+.about-me .about-links .icons-codepen{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.logo{
+    width: 35rem;
+}
+.logo .developer{
+    width: 100%;
+    height: auto;
+}
+@media (max-width:900px){
+
 }

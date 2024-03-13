@@ -1,24 +1,26 @@
-import { ReactComponent as IconDeveloperBackground } from "../svg/developer-background.svg";
+import { ReactComponent as Github } from "../svg/github.svg";
+import { ReactComponent as Codepen } from "../svg/codepen.svg";
+import { ReactComponent as Linkedin } from "../svg/linkedin.svg";
+import { ReactComponent as DeveloperBackground } from "../svg/developer-background.svg";
 import "../style/Profile.css";
-
-function Curriculum(){
-    window.open("https://drive.google.com/file/d/15CYH7jskF8ho7PIy3cgErwAxgglXq-KX/view?usp=sharing","_blank")
-}
 
 function Profile(){
     return(
         <div className="about">
             <div className="about-me">
-                <h2>Hi!, I'm
-                    <span> C</span>a
-                    <span>r</span>
-                    <span>l</span>o
-                    <span>s</span>
-                </h2>
-                <p>Front-End Developer.</p>
-                <button onClick={Curriculum}>Curriculum Vitae</button>
+                <p>Hey, I'm</p>
+                <h2>Carlos</h2>
+                <h2>Guerrero</h2>
+                <p>Estudent of Software Engineer - <span>Web Developer</span>.</p>
+                <div className="about-links">
+                    <Linkedin className="icons-linkedin"/>
+                    <Github className="icons-github" />
+                    <Codepen className="icons-codepen"/>
+                </div>                
             </div>
-            <IconDeveloperBackground className="icon-dev"/>
+            <div className="logo">
+               <DeveloperBackground className="developer"/>  
+            </div>
         </div>
     );
 }
