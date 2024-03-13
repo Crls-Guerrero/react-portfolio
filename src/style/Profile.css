@@ -52,6 +52,38 @@
     width: 100%;
     height: auto;
 }
+@media (max-width:1300px){
+    .logo{
+        width: 25rem;
+    }
+}
+@media (max-width:1120px){
+    .about-me h2{
+        font-size: 3.1rem;        
+    }
+    .about-me .about-links .icons-linkedin{
+        width: 30px; 
+    }
+    .about-me .about-links .icons-github{
+        width: 30px;
+    }
+    .about-me .about-links .icons-codepen{
+        width: 30px;
+    }
+}
 @media (max-width:900px){
-
+    .about-me{
+        margin-left: 6.5rem;
+    }
+    .logo{
+        width: 5rem;
+    }
+    .logo .developer{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .about-me{
+        margin-left: 3rem;
+    }
 }
