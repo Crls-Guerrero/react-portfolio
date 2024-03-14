@@ -5,6 +5,7 @@ import "../style/Navbar.css";
 function Curriculum(){
     window.open("https://drive.google.com/file/d/15CYH7jskF8ho7PIy3cgErwAxgglXq-KX/view?usp=sharing","_blank")
 }
+
 function Navbar(){
     const [showMenu, setShowMenu] = useState(false);
     const toggleMenu = () => {
