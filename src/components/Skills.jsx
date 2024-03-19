@@ -12,7 +12,7 @@ import "../style/Skills.css"
 
 function Skills() {
   return (
-    <div class="skills">
+    <div className="skills">
         <img src={Html} className='ico' alt="HTML" />
         <img src={Css} className='ico' alt="Css" />
         <img src={Js} className='ico' alt="Js" />
