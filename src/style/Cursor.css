@@ -1,0 +1,93 @@
+.cursor{
+    margin-top: 2.5rem;
+    margin-left: -4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scroll{
+    width: 45px;
+    height: 70px;
+    border: #fff solid 1px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.scroll span{
+    width: 5px;
+    height: 10px;
+    margin-top: 10px;
+    background-color: #fff;    
+    border-radius: 30px;    
+    position: relative;
+    animation: rod 2s infinite linear;
+}
+.scroll span::before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    transform: translateY(-10px) rotate(135deg);
+    top: 52px;
+    left: -8px;
+    margin-top: 10px;
+    opacity: 0;
+    animation: ani 1.8s infinite linear;
+}
+.scroll span::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    transform: translateY(-10px) rotate(135deg);
+    top: 52px;
+    left: -8px;
+    margin-top: 10px;
+    opacity: 0;
+    animation: ani 1.8s infinite linear;
+    animation-delay: 0.8s;
+}
+@keyframes ani {
+    0% {
+        margin-top: 10px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: 25px;
+        opacity: 1;
+    }
+    100% {
+        margin-top: 40px;
+        opacity: 0;
+    }
+}
+@keyframes rod {
+    0% {
+        margin-top: 10px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: 20px;
+        opacity: 1;
+    }
+    100% {
+        margin-top: 25px;
+        opacity: 0;
+    }
+}
+@media (max-width: 900px) {
+    .cursor{
+        margin-left:-2.5rem;
+    }
+}
+@media (max-width: 400px) {
+    .cursor{
+        margin-left:0;
+    }
+}

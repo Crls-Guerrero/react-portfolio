@@ -57,6 +57,11 @@ a .header-links{
 .menu-icon{
     display: none;
 }
+@media (max-width:1500px){
+    .header{
+        gap: 19rem;
+    }
+}
 @media (max-width:1300px){
     .header{
         gap: 10rem;
@@ -114,7 +119,8 @@ a .header-links{
         justify-content: center;
         position: absolute;
         top:5.2rem;    
-        background-color: var(--background-black);    
+        background-color: var(--background-black);
+        z-index: 1;    
     }
     .nav{
         flex-direction: column;

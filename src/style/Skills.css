@@ -1,5 +1,5 @@
 .skills-slider{
-    width: 75vw;
+    width: 45vw;
     display: flex;
     overflow: hidden;
 }
@@ -9,16 +9,20 @@
   justify-content: center;
   animation: scroll 40s linear infinite;
   width: calc(100px * 18 );
+  gap: 5px;
 }
 .skills-slider .slider-img{
-  width: 100px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50px;
 }
 .ico{
     width: 100%;
+    padding: 5px;
     aspect-ratio: 4/3;
     object-fit: contain;
 }
-@keyframes scroll{
+/* @keyframes scroll{
   0%{
     transform: translateX(0);
   }
@@ -26,3 +30,4 @@
     transform: translateX(calc(-900px ));
   }
 }
+ */
