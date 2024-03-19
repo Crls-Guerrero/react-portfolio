@@ -1,20 +1,28 @@
-.skill{
-    width: 100%;
+.skills-slider{
+    width: 75vw;
     display: flex;
     overflow: hidden;
-
+}
+.skills-slider .slider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: scroll 40s linear infinite;
+  width: calc(100px * 18 );
+}
+.skills-slider .slider-img{
+  width: 100px;
 }
 .ico{
-    width: 100px; 
+    width: 100%;
     aspect-ratio: 4/3;
     object-fit: contain;
-    animation: carousel 4s infinite linear;
 }
-@keyframes carousel {
-    0% {
-      transform: translate3d(0,0,100px);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
   }
+  100%{
+    transform: translateX(calc(-900px ));
+  }
+}

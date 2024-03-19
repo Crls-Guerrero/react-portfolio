@@ -12,16 +12,28 @@ import "../style/Skills.css"
 
 function Skills() {
   return (
-    <div className="skills">
-        <img src={Html} className='ico' alt="HTML" />
-        <img src={Css} className='ico' alt="Css" />
-        <img src={Js} className='ico' alt="Js" />
-        <img src={Sql} className='ico' alt="Sql" />
-        <img src={Github} className='ico' alt="Github" />
-        <img src={Git} className='ico' alt="Git" />
-        <img src={Figma} className='ico' alt="Figma" />
-        <img src={ReactIco} className='ico' alt="React" />
-        <img src={Php} className='ico' alt="PHP" />
+    <div className="skills-slider">
+      <div className='slider'>
+        <div className='slider-img'><img src={Html} className='ico' alt="HTML" /></div>
+        <div className='slider-img'><img src={Css} className='ico' alt="Css" /></div>
+        <div className='slider-img'><img src={Js} className='ico' alt="Js" /></div>
+        <div className='slider-img'><img src={Sql} className='ico' alt="Sql" /></div>
+        <div className='slider-img'><img src={Github} className='ico' alt="Github" /></div>
+        <div className='slider-img'><img src={Git} className='ico' alt="Git" /></div>
+        <div className='slider-img'><img src={Figma} className='ico' alt="Figma" /></div>
+        <div className='slider-img'><img src={ReactIco} className='ico' alt="React" /></div>
+        <div className='slider-img'><img src={Php} className='ico' alt="PHP" /></div>     
+        <div className='slider-img'><img src={Html} className='ico' alt="HTML" /></div>
+        <div className='slider-img'><img src={Css} className='ico' alt="Css" /></div>
+        <div className='slider-img'><img src={Js} className='ico' alt="Js" /></div>
+        <div className='slider-img'><img src={Sql} className='ico' alt="Sql" /></div>
+        <div className='slider-img'><img src={Github} className='ico' alt="Github" /></div>
+        <div className='slider-img'><img src={Git} className='ico' alt="Git" /></div>
+        <div className='slider-img'><img src={Figma} className='ico' alt="Figma" /></div>
+        <div className='slider-img'><img src={ReactIco} className='ico' alt="React" /></div>
+        <div className='slider-img'><img src={Php} className='ico' alt="PHP" /></div>     
+        
+      </div> 
     </div>
   )
 }
