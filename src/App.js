@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Profile/>
       <Cursor/>
-     
+     <Skills/>
     </div>
   );
 }

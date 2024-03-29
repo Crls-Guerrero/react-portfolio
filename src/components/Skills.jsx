@@ -12,28 +12,13 @@ import "../style/Skills.css"
 
 function Skills() {
   return (
-    <div className="skills-slider">
-      <div className='slider'>
-        <div className='slider-img'><img src={Html} className='ico' alt="HTML" /></div>
-        <div className='slider-img'><img src={Css} className='ico' alt="Css" /></div>
-        <div className='slider-img'><img src={Js} className='ico' alt="Js" /></div>
-        <div className='slider-img'><img src={Sql} className='ico' alt="Sql" /></div>
-        <div className='slider-img'><img src={Github} className='ico' alt="Github" /></div>
-        <div className='slider-img'><img src={Git} className='ico' alt="Git" /></div>
-        <div className='slider-img'><img src={Figma} className='ico' alt="Figma" /></div>
-        <div className='slider-img'><img src={ReactIco} className='ico' alt="React" /></div>
-        <div className='slider-img'><img src={Php} className='ico' alt="PHP" /></div>     
-        <div className='slider-img'><img src={Html} className='ico' alt="HTML" /></div>
-        <div className='slider-img'><img src={Css} className='ico' alt="Css" /></div>
-        <div className='slider-img'><img src={Js} className='ico' alt="Js" /></div>
-        <div className='slider-img'><img src={Sql} className='ico' alt="Sql" /></div>
-        <div className='slider-img'><img src={Github} className='ico' alt="Github" /></div>
-        <div className='slider-img'><img src={Git} className='ico' alt="Git" /></div>
-        <div className='slider-img'><img src={Figma} className='ico' alt="Figma" /></div>
-        <div className='slider-img'><img src={ReactIco} className='ico' alt="React" /></div>
-        <div className='slider-img'><img src={Php} className='ico' alt="PHP" /></div>     
-        
+    <div className="skills" id='skills'>
+      <div className='ls frontend'>
+        <h2>Frontend</h2>       
       </div> 
+      <div className='ls backend'>
+        <h2>Backend</h2>        
+      </div>
     </div>
   )
 }
