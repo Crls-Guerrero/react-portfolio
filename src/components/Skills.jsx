@@ -13,11 +13,45 @@ import "../style/Skills.css"
 function Skills() {
   return (
     <div className="skills" id='skills'>
-      <div className='ls frontend'>
-        <h2>Frontend</h2>       
-      </div> 
-      <div className='ls backend'>
-        <h2>Backend</h2>        
+      <div className="slider">
+        <div class="slide-track">
+            <div class="slide">
+              <img src={Html} alt="Html" />
+              <p>HTML5</p>
+            </div>
+            <div class="slide">
+              <img src={Css} alt="Css" />
+              <p>CSS3</p>
+            </div>
+            <div class="slide">
+              <img src={Js} alt="Js" />
+                <p>JavaScript</p>
+            </div>
+            <div class="slide">
+              <img src={Sql} alt="Sql" />
+                <p>SQL Server</p>
+            </div>
+            <div class="slide">
+              <img src={Github} alt="Github" />
+                <p>Github</p>
+            </div>
+            <div class="slide">
+              <img src={Git} alt="Git" />
+                <p>Git</p>
+            </div>
+            <div class="slide">
+              <img src={ReactIco} alt="ReactIco" />
+                <p>React</p>
+            </div>
+            <div class="slide">
+              <img src={Figma} alt="Figma" />
+                <p>Figma</p>
+            </div>
+            <div class="slide">
+              <img src={Php} alt="Php" />
+              <p>PHP</p>
+            </div>
+        </div>
       </div>
     </div>
   )
