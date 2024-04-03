@@ -16,10 +16,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: var(--background-black);
 }
-
 .App {
   width: 100%;
   display: flex;
@@ -27,4 +29,15 @@ body{
   justify-content: center;
   align-items: center;
   position: relative;
+}
+::-webkit-scrollbar {
+    background-color: var(--background-black);
+    width: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: var(--letra-titulo);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-corner{
+    background-color: var(--background-black);
 }

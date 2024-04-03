@@ -21,8 +21,8 @@ function Navbar(){
                 <div className={`header-links ${showMenu ? 'show-links' : ''}`}>                    
                     <nav className="nav">
                         <a href="#a">Home</a>
+                        <a href="#a">Skills</a>
                         <a href="#a">Projects</a>
-                        <a href="#a">Contact</a>
                         <button onClick={Curriculum}>Curriculum</button>
                     </nav>
                 </div>              
