@@ -1,6 +1,6 @@
 .skills{
     width: 100%;
-    padding-top: 15rem;  
+    margin: 15rem 0;  
 }
 .skills .slider-track{
   margin-left:-4rem ;
@@ -43,7 +43,7 @@
 .slider .slide img {
   width: 50px;
 }
-@media (max-width:1300px){
+@media (max-width:1100px){
   .skills .slider-track{
     margin: 0;
   }
