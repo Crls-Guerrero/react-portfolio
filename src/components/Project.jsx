@@ -17,6 +17,10 @@ function Project() {
      tecnologias: 'HTML | CSS | JavaScript', link:'' },
      { img: Html, imgName: 'Html', description: 'Desarrollo de un SaaS basado en Inteligencia Artificial que a través de modelos predictivos usa el histórico de datos del usuario y permite mejorar la conversión de leads.',
      tecnologias: 'HTML | CSS | JavaScript', link:'' },
+     { img: Html, imgName: 'Html', description: 'Desarrollo de un SaaS basado en Inteligencia Artificial que a través de modelos predictivos usa el histórico de datos del usuario y permite mejorar la conversión de leads.',
+     tecnologias: 'HTML | CSS | JavaScript', link:'' },
+     { img: Html, imgName: 'Html', description: 'Desarrollo de un SaaS basado en Inteligencia Artificial que a través de modelos predictivos usa el histórico de datos del usuario y permite mejorar la conversión de leads.',
+     tecnologias: 'HTML | CSS | JavaScript', link:'' },
     
   ]);
 
@@ -28,12 +32,12 @@ function Project() {
 
   return (
     <div className='project'>
-        <div>
-            <h1 >Projects</h1>
+        <div data-aos="fade-right">
+          <h1>Projects</h1>
         </div>
-
-        {projects.slice(0, visibleProjects).map((project,index) => (
-          <div key={index} className='card-project'>
+    
+        {projects.slice(0, visibleProjects).map((project) => (
+          <div  className='card-project' data-aos="fade-right">
             <div className='img-project'>
               <img src={project.img} alt={project.imgName} />          
             </div>

@@ -1,4 +1,4 @@
-import 'aos/dist/aos.css';
+
 import Html from "../img/html-5.png";
 import Css from "../img/css-3.png";
 import Boostrap from "../img/boostrap.png"
