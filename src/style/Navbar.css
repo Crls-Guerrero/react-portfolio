@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 6rem;
+    gap: 15rem;
 }
 .header-title{
     display: flex;
@@ -20,7 +20,7 @@
     font-size: 1.7rem;   
     color: var(--letra-titulo);
 }
-a .header-links{    
+.header-links{    
     display: flex;
     align-items: center;
     gap: 10px;
@@ -64,22 +64,13 @@ a .header-links{
 }
 @media (max-width:1300px){
     .header{
-        gap: 10rem;
+        gap: 17rem;
     }
 }
-@media (max-width:1120px){
+
+@media (max-width: 880px) {
     .header{
-        gap: 15rem;
-    }
-}
-@media (max-width:1090px){
-    .header{
-        gap: 16rem;
-    }
-}
-@media (max-width: 900px) {
-    .header{
-        gap: 3.5rem;
+        
         justify-content: space-around;
     }
     .header-title p:nth-child(3){
@@ -128,5 +119,10 @@ a .header-links{
     }
     .nav a{
         margin: 20px 0;
+    }
+}
+@media (max-width: 680px){
+    .header{
+        gap: 5rem;
     }
 }

@@ -1,12 +1,13 @@
 .about{
-    width: 100%;
+    width: 100%;    
     margin: 4.5rem 0;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     gap: 6rem;
 }
 .about-me{
+    width: 20%;
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -46,7 +47,7 @@
     cursor: pointer;
 }
 .logo{
-    width: 35rem;
+    width: 620px;
 }
 .logo .developer{
     width: 100%;
@@ -57,12 +58,21 @@
     transform: scale(1.2);
 }
 @media (max-width:1300px){
+    .about-me{
+        width: 25%;
+    }
     .logo{
-        width: 25rem;
+        width: 40%;
     }
 }
 @media (max-width:1120px){
-    .about-me h2{
+    .about-me{
+        width: 20%;
+    }
+    .logo{
+        width: 50%;
+    }
+    .about-me h2{       
         font-size: 3.1rem;        
     }
     .about-me .about-links .icons-linkedin{
@@ -77,7 +87,7 @@
 }
 @media (max-width:900px){
     .about-me{
-        margin-left: 6.5rem;
+        width: auto;       
     }
     .logo{
         width: 5rem;

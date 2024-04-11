@@ -1,6 +1,5 @@
 .cursor{
     margin-top: 2.5rem;
-    margin-left: -5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,15 +78,5 @@
     100% {
         margin-top: 25px;
         opacity: 0;
-    }
-}
-@media (max-width: 900px) {
-    .cursor{
-        margin-left:-2.5rem;
-    }
-}
-@media (max-width: 400px) {
-    .cursor{
-        margin-left:0;
     }
 }
