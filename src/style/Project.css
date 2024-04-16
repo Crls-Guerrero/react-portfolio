@@ -14,7 +14,7 @@
     font-size: 2.2rem;
     font-weight: 600;
 }
-.project p,h3,a{
+.project p,.project h3,.project a{
     color: var(--letra-white);
     font-weight: 400;
 }
@@ -78,12 +78,21 @@
     border-radius: 10px;
     color: var(--letra-white);
     font-size: 1.1rem;
+    cursor: pointer;
 }
 .project-buttom:hover{
     background-color: var(--letra-titulo);
     border-color: var(--letra-titulo);
 }
 @media (max-width: 1200px){
+    .card-project{  
+        margin: 0;                         
+    }
+    .img-project{
+        width: 100%;
+    }
+}
+@media (max-width: 800px){
     .project{
         margin-top: 10rem;
     }
@@ -92,9 +101,7 @@
     }
     .card-project{   
         width: 80%;  
-        margin: 0;   
-        flex-wrap: wrap;
-       
+        flex-wrap: wrap;    
     }
     .img-project{
         width: 100%;

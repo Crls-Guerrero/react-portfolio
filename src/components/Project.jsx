@@ -50,6 +50,8 @@ function Project() {
                   <h3>Tecnologias usadas:</h3>
                   <p>{project.tecnologias}</p>
                 </div>
+
+                
                 <div className='lenguaje-part2'>
                   <a href={project.link}>Visitar</a>
                 </div>

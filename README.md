@@ -3,8 +3,11 @@ Use library AOS for scroll.
 - useEffect(() => {
     AOS.init();
   }, []);
-  
+
+Skills:
+ two div to desktop and movil
+
 Projects:
     img:
-    - Width : 
-    - Height: 
+    - Width : ?
+    - Height: ?

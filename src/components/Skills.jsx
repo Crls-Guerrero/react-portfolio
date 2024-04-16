@@ -72,6 +72,62 @@ function Skills() {
             </div>                                
         </div>
       </div>
+
+      {/* Skill for movil*/}
+      <div className='movil-slider-track'>
+        <div className="movil-slider">
+            <div className="movil-slide" data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Html} alt="Html" />
+              <p>HTML5</p>
+            </div>
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Css} alt="Css" />
+              <p>CSS3</p> 
+            </div>
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Js} alt="Js" />
+                <p>JavaScript</p>
+            </div>
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={ReactIco} alt="ReactIco" />
+                <p>React</p>
+            </div>   
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Sql} alt="SQL Server" />
+              <p>SQL Server</p>
+            </div>
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Git} alt="Git" />
+              <p>Git</p> 
+            </div>
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Github} alt="Github" />
+                <p>Github</p>
+            </div>
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Boostrap} alt="Boostrap" />
+                <p>Bootstrap</p>
+            </div>   
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Tailwind} alt="Tailwind" />
+                <p>Tailwind</p>
+            </div> 
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Php} alt="Php" />
+                <p>PHP</p>
+            </div> 
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={Figma} alt="Figma" />
+                <p>Figma</p>
+            </div>  
+            <div className="movil-slide"  data-aos="fade-up"  data-aos-easing="ease-in-sine"  data-aos-duration="500">
+              <img src={VsCode} alt="VsCode" />
+                <p>VsCode</p>
+            </div>        
+        </div>
+        
+      </div>
+
     </div>
     
   )
