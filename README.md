@@ -13,4 +13,7 @@ Projects:
     - Height: ?
 
 Package.json modified for view github pages:
-
+ 1- npm run deploy
+ 2- npm install gh-pages --save-dev
+ 3- npm run deploy
+ 
