@@ -11,3 +11,6 @@ Projects:
     img:
     - Width : ?
     - Height: ?
+
+Package.json modified for view github pages:
+
